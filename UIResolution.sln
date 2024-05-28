@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIResolution", "UIResolution\UIResolution.csproj", "{6286E108-7C7C-472A-A502-2DE06D3A92D0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{997CC314-956D-4CAF-AFFE-28B6025756B8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UIShared", "ModsCommon\UIShared\UIShared.shproj", "{BE979510-7832-4714-95A3-305065D9DED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Beta Debug|Any CPU = Beta Debug|Any CPU
@@ -24,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE979510-7832-4714-95A3-305065D9DED6} = {997CC314-956D-4CAF-AFFE-28B6025756B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		BuildVersion_StartDate = 2000/1/1
@@ -55,5 +62,6 @@ Global
 		ModsCommon\SingletonShared\SingletonShared.projitems*{6286e108-7c7c-472a-a502-2de06d3a92d0}*SharedItemsImports = 5
 		ModsCommon\UIShared\ModsUIShared.projitems*{6286e108-7c7c-472a-a502-2de06d3a92d0}*SharedItemsImports = 5
 		ModsCommon\WhatsNewMessageBoxShared\WhatsNewMessageBoxShared.projitems*{6286e108-7c7c-472a-a502-2de06d3a92d0}*SharedItemsImports = 5
+		ModsCommon\UIShared\ModsUIShared.projitems*{be979510-7832-4714-95a3-305065d9ded6}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
