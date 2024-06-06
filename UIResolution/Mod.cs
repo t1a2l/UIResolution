@@ -167,6 +167,11 @@ namespace UIResolution
             "(Library) AirportWorldInfoPanel",
             "(Library) PedestrianZoneWorldInfoPanel",
             "(Library) ServicePointInfoViewPanel",
+            "(Library) NewProcessingFacilityWorldInfoPanel",
+            "(Library) NewMultiProcessingFacilityWorldInfoPanel",
+            "(Library) ExtendedWarehouseWorldInfoPanel",
+            "(Library) RestaurantWorldInfoPanel",
+            "(Library) RestaurantInfoViewPanel",
         };
 
         protected override void Enable()
@@ -464,7 +469,13 @@ namespace UIResolution
                     UIComponentOnResolutionChanged(component, previousResolution, currentResolution);
 
                 foreach (var component in components)
+                {
+                    if(component.Find<UISprite>("ResourceIcon") != null)
+                    {
+                        continue;
+                    }
                     component.PerformLayout();
+                }   
             }
 
             static int RenderSortFunc(UIComponent lhs, UIComponent rhs) => lhs.renderOrder.CompareTo(rhs.renderOrder);
