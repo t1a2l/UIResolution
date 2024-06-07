@@ -470,7 +470,8 @@ namespace UIResolution
 
                 foreach (var component in components)
                 {
-                    if(component.Find<UISprite>("ResourceIcon") != null)
+                    var sprite = component.Find<UISprite>("ResourceIcon");
+                    if (sprite != null)
                     {
                         continue;
                     }
