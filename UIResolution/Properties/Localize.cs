@@ -51,6 +51,11 @@ namespace UIResolution
 		public static string Mod_WhatsNewMessage1_3_3 => LocaleManager.GetString("Mod_WhatsNewMessage1_3_3", Culture);
 
 		/// <summary>
+		/// [UPDATED] Updated required game version to 1.21.1-f5
+		/// </summary>
+		public static string Mod_WhatsNewMessage1_3_4 => LocaleManager.GetString("Mod_WhatsNewMessage1_3_4", Culture);
+
+		/// <summary>
 		/// UI Scale ({0}%)
 		/// </summary>
 		public static string UIScale => LocaleManager.GetString("UIScale", Culture);
