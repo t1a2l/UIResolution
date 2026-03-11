@@ -51,7 +51,7 @@ namespace UIResolution
 		public static string Mod_WhatsNewMessage1_3_3 => LocaleManager.GetString("Mod_WhatsNewMessage1_3_3", Culture);
 
 		/// <summary>
-		/// [UPDATED] Updated required game version to 1.21.1-f5
+		/// [UPDATED] The mod is compatible with the game version 1.21.1-f5
 		/// </summary>
 		public static string Mod_WhatsNewMessage1_3_4 => LocaleManager.GetString("Mod_WhatsNewMessage1_3_4", Culture);
 

@@ -23,7 +23,7 @@ namespace UIResolution
 
         public override List<ModVersion> Versions { get; } = new List<ModVersion>
         {
-            new ModVersion(new Version("1.3.4"), new DateTime(2026, 3, 8)),
+            new ModVersion(new Version("1.3.4"), new DateTime(2026, 3, 11)),
             new ModVersion(new Version("1.3.3"), new DateTime(2025, 9, 29)),
             new ModVersion(new Version("1.3.2"), new DateTime(2025, 5, 23)),
             new ModVersion(new Version("1.3.1"), new DateTime(2024, 10, 26)),
